@@ -48,7 +48,7 @@ main {
 }
 
 .gameParagraph {
-    font-size: 1em;
+    font-size: 2em;
 }
 
 img {
@@ -75,3 +75,6 @@ img {
 }
 
 
+.mainNav{
+    color: white;
+}
