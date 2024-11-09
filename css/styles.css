@@ -1,0 +1,77 @@
+/* start of upper navigator area*/
+.upperNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    font-size: 2em;
+    border-radius: 1.5em;
+}
+
+.leftNav {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
+
+.rightNav {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+/*end of navigator area*/
+
+/*start of main*/
+main {
+    display: grid;
+    padding: 2em;
+    padding-right: 20%;
+}
+
+.header {
+    font-size: 2em;
+}
+
+.gameParagraph {
+    font-size: 1em;
+}
+
+img {
+    max-width: 450px;
+}
+
+.gameImage {
+    background-color: white;
+    border: solid black 4px;
+    border-radius: 20px;
+    width: fit-content;
+    float: left;
+    margin-right: 5em;
+}
+
+.figCaption {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.mainNav{
+    display: grid;
+    background-color: deepskyblue;
+}
+
+
