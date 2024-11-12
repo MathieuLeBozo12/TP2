@@ -1,12 +1,16 @@
 /* start of upper navigator area*/
+body{
+    background-color: black;
+}
 .upperNav {
+
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color: darkgray;
+    color: black;
     padding: 2em;
-    font-size: 2em;
-    border-radius: 1.5em;
+    font-size: 1.5em;
+    border-radius: 1em;
 }
 
 .leftNav {
@@ -22,12 +26,12 @@
 }
 
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -37,22 +41,34 @@ a:hover {
 /*end of navigator area*/
 
 /*start of main*/
+
 main {
     display: grid;
+    grid-template-areas: 
+    "main mainnav";
+    gap: 2em;
     padding: 2em;
-    padding-right: 20%;
+    width: 98%;
+    border-radius: 10px;
+    color: white;
+}
+
+.header,.gameParagraph,.gameImage{
+    grid-area: main;
 }
 
 .header {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
+
 .gameParagraph {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 img {
-    max-width: 450px;
+    max-width: 350px;
+    height: 380px;
 }
 
 .gameImage {
@@ -62,14 +78,37 @@ img {
     width: fit-content;
     float: left;
     margin-right: 5em;
+    
 }
 
 .figCaption {
     font-style: italic;
+    font-size: 1em;
+}
+
+.mainNav{
+    grid-area: mainnav;
+    background-color: deepskyblue;
+    padding:2em;
+    width: 300px;
+    height: 93%;
+    border-radius: 1.5em;
     font-size: 1.5em;
 }
 
 .mainNav {
     display: grid;
     background-color: deepskyblue;
+}
+
+.footer{
+    background-color: grey;
+    text-align: right;
+    height: 80px;
+    border-radius: 1.5em;
+} 
+
+
+.footer p{
+    padding: 15px;
 }
