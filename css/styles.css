@@ -69,12 +69,7 @@ img {
     font-size: 1.5em;
 }
 
-.mainNav{
+.mainNav {
     display: grid;
     background-color: deepskyblue;
-}
-
-
-.mainNav{
-    color: white;
 }
