@@ -66,7 +66,8 @@ main {
 }
 
 .header {
-    font-size: 3em;
+    font-size: 3.5em;
+    font-weight: bolder;
 }
 
 
@@ -83,13 +84,14 @@ img {
     background-color: white;
     border: solid black 4px;
     border-radius: 20px;
-    width: fit-content;
+    width: 435px;
+    height: 435px;
     float: left;
     margin-right: 5em;
     
 }
 
-.figCaption {
+figCaption {
     font-style: italic;
     font-size: 1.5em;
     color: black;
@@ -121,6 +123,3 @@ img {
 .footer p{
     padding: 10px;
 }
-
-
-
